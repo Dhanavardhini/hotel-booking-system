@@ -1,0 +1,59 @@
+
+/* Container Styles */
+.mybookings-container {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1200px;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+  }
+  
+  /* Title Styles */
+  .mybookings-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4CAF50;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Loading and No Bookings Text */
+  .loading-text,
+  .no-bookings-text {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 20px 0;
+  }
+  
+  /* Table Styles */
+  .mybookings-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .mybookings-table th,
+  .mybookings-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .mybookings-table th {
+    background-color: #4CAF50;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .mybookings-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .mybookings-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .mybookings-table td {
+    text-align: center;
+  }
+  
